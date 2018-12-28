@@ -1,5 +1,9 @@
 import random
-r = random.randint(1,100)
+start = input('Set up the starting value: ')
+end = input('Set up the end value: ')
+start = int(start)
+end = int(end)
+r = random.randint(start,end)
 count = 0
 while True:
 	g = input('Enter your number: ')
